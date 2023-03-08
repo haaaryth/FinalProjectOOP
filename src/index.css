@@ -1,0 +1,74 @@
+
+/* body */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-image: url(weather.jpg);
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* font:h1 */
+h1 {
+  color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  font-weight:900;
+}
+/* info box */
+.info-box {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+/* weather info */
+#weather-info {
+background-color: #ffffff;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+/* For selection part */
+.selection {
+display:block;
+font-size: 16px;
+font-weight: 500;
+color: #555;
+padding: 8px 25px;
+border: 2px solid #ddd;
+border-radius: 5px;
+appearance: none;
+-webkit-appearance: none;
+background-size: 16px;
+cursor: pointer;
+transition: border-color 0.2s ease-in-out;
+}
+
+.selection:focus {
+outline: none;
+border-color: #0077cc;
+}
+
+.selection option {
+font-size: 16px;
+font-weight: 400;
+color: #555;
+}
+.selection option:hover{
+background-color: aqua;
+}
+/* button */
+button{
+background-color: #1c5981; 
+border: none; 
+color: white; 
+padding: 12px 24px;
+font-size: 16px;
+cursor: pointer; 
+border-radius: 5px; 
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
